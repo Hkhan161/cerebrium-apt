@@ -31,7 +31,7 @@ Version: 1.0
 Architectures: amd64 arm64 i386
 Components: main
 Description: Cerebrium Official APT Repository
-Date: $(date -u +"%a, %d %b %Y %H:%M:%S UTC")
+Date: $(date -u +"%a, %d %b %Y %H:%M:%S +0000")
 EOF
 
 # Add checksums
