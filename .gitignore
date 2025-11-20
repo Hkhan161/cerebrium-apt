@@ -1,0 +1,9 @@
+# Ignore macOS files
+.DS_Store
+
+# Ignore backup files
+*.bak
+*~
+
+# Keep .deb files
+!*.deb

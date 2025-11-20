@@ -1,0 +1,15 @@
+Package: cerebrium
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Cerebrium AI <support@cerebrium.ai>
+Installed-Size: 9864
+Filename: pool/main/c/cerebrium/cerebrium_2.0.0_linux_amd64.deb
+Size: 4102084
+MD5sum: 1ca09639832cac52e9510478ac96f281
+SHA1: 37cbf010b05773c981e03446f779007961175323
+SHA256: d205dee1582546954878194f24a990f08b5e0cd8606a74c960ab80d4fe6674a3
+Priority: optional
+Homepage: https://www.cerebrium.ai
+Description: CLI for deploying and managing Cerebrium apps
+License: MIT
+
