@@ -31,7 +31,7 @@ Version: 1.0
 Architectures: amd64 arm64 i386
 Components: main
 Description: Cerebrium Official APT Repository
-Date: $(date -R)
+Date: $(date -u +"%a, %d %b %Y %H:%M:%S UTC")
 EOF
 
 # Add checksums
@@ -57,8 +57,8 @@ done
 
 # Sign Release file
 echo "Signing Release file..."
-gpg --default-key 61E31EFB9CDC52C1 -abs -o dists/stable/Release.gpg dists/stable/Release
-gpg --default-key 61E31EFB9CDC52C1 --clearsign -o dists/stable/InRelease dists/stable/Release
+gpg --yes --default-key 61E31EFB9CDC52C1 -abs -o dists/stable/Release.gpg dists/stable/Release
+gpg --yes --default-key 61E31EFB9CDC52C1 --clearsign -o dists/stable/InRelease dists/stable/Release
 
 echo "Repository updated successfully!"
 echo ""
