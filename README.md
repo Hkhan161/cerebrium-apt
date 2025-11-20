@@ -6,12 +6,12 @@ Official APT repository for Cerebrium CLI packages.
 
 Add the GPG key:
 ```bash
-curl -fsSL https://cerebrium.github.io/apt/cerebrium.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cerebrium-keyring.gpg
+curl -fsSL https://hkhan161.github.io/cerebrium-apt/cerebrium.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cerebrium-keyring.gpg
 ```
 
 Add the repository:
 ```bash
-echo "deb [signed-by=/usr/share/keyrings/cerebrium-keyring.gpg] https://cerebrium.github.io/apt/ stable main" | sudo tee /etc/apt/sources.list.d/cerebrium.list
+echo "deb [signed-by=/usr/share/keyrings/cerebrium-keyring.gpg] https://hkhan161.github.io/cerebrium-apt/ stable main" | sudo tee /etc/apt/sources.list.d/cerebrium.list
 ```
 
 Install Cerebrium:
